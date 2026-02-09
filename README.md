@@ -22,15 +22,16 @@ The goal is to prevent data leakage and ensure reliable model evaluation.
 
 ## Project Structure
 
+```text
+disease-prediction-ml-pipeline/
 ├── main.py
 ├── requirements.txt
 ├── src/
-│ ├── data_preprocessing.py
-│ ├── feature_engineering.py
-│ ├── models.py
-│ └── pipeline.py
-└── data/ (not included)
-
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── models.py
+│   └── pipeline.py
+└── data/ (not included in repository)
 
 ---
 
